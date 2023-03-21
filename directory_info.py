@@ -1,14 +1,3 @@
-
-
-# todo
-# 1. step
-# get source directory as parameter in a different method
-# count each file in the source directory in a different method
-# print file names in the source directory in a different method
-# count files in the source directory in a different method
-# print sizes of each file in the source directory in a different method
-# count total size of files in the source directory in a different method
-
 import os
 
 
@@ -61,7 +50,3 @@ if __name__ == '__main__':
         f"Total size of files in {directory}:\n\t {bytes_val:} bytes ({megabytes_val:.2f} MB, {gigabytes_val:.2f} GB)")
 
 
-# 2. step
-# make a new destination directory of pixel size, e.g., 100x100
-# change the size of images (.png, .jpg, .jpeg) to, e.g., 100x100
-# save the image to the new directory
